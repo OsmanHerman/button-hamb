@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+
+    /*PRIMER HAMB*/
+    /*
+    .ham {
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        transition: transform 400ms;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        &.active {transform: rotate(45deg);}
+
+        .line {
+            fill:none;
+            transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+            stroke:#000;
+            stroke-width:5.5;
+            stroke-linecap:round;
+        }
+
+        .top {stroke-dasharray: 40 139;}
+        .bottom {stroke-dasharray: 40 180;}
+        &.active {
+            .top {stroke-dashoffset: -98px;}
+            .bottom {stroke-dashoffset: -138px;}
+        }    
+    }
+    */
+
+
+    /*SEGUNDO HAMB*/
+    /*
+    .ham {
+        cursor: pointer;
+        transition: transform 400ms;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        -ms-user-select: none;
+
+        .line {
+            fill:none;
+            transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+            stroke:#000;
+            stroke-width:5.5;
+            stroke-linecap:round;
+        }
+
+        .top {stroke-dasharray: 40 121;}
+        .bottom {stroke-dasharray: 40 121;}
+        &.active{
+            .top {stroke-dashoffset: -102px;}
+            .bottom {stroke-dashoffset: -102px;}
+        } 
+    }
+    */
+
+
+    /*TERCER HAMB*/
+    /*
+    .ham {
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        transition: transform 400ms;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        .line {
+            fill:none;
+            transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+            stroke:#000;
+            stroke-width:5.5;
+            stroke-linecap:round;
+        }
+
+        .top {stroke-dasharray: 40 130;}
+        .middle {stroke-dasharray: 40 140;}
+        .bottom {stroke-dasharray: 40 205;}
+
+        &.active{
+            .top {
+                stroke-dasharray: 75 130;
+                stroke-dashoffset: -63px;
+            }
+            .middle {stroke-dashoffset: -102px;}
+            .bottom {
+                stroke-dasharray: 110 205;
+                stroke-dashoffset: -86px;
+            }
+        } 
+    }
+    */
+
+
+    /*CUARTO HAMB*/
+    /*
+    .ham {
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        transition: transform 400ms;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        &.active {transform: rotate(45deg);}
+
+        .line {
+            fill:none;
+            transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+            stroke:#000;
+            stroke-width:5.5;
+            stroke-linecap:round;
+        }
+
+        .top {stroke-dasharray: 40 121;}
+        .bottom {stroke-dasharray: 40 121;}
+        &.active {
+            .top {stroke-dashoffset: -68px;}
+            .bottom {stroke-dashoffset: -68px;}
+        }
+    }
+    */
+
+
+    /*QUINTO HAMB*/
+    /*
+    .ham {
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        transition: transform 400ms;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        &.active {transform: rotate(180deg);}
+
+        .line {
+            fill:none;
+            transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+            stroke:#000;
+            stroke-width:5.5;
+            stroke-linecap:round;
+        }
+
+        .top {stroke-dasharray: 40 82;}
+        .bottom {stroke-dasharray: 40 82;}
+        &.active {
+            .top {
+            stroke-dasharray: 14 82;
+            stroke-dashoffset: -72px;
+            }
+            .bottom {
+            stroke-dasharray: 14 82;
+            stroke-dashoffset: -72px;
+            }
+        }
+    }
+    */
+
+
+    /*SEXTO HAMB*/
+    /*
+    .ham {
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        transition: transform 400ms;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        .line {
+            fill:none;
+            transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+            stroke:#000;
+            stroke-width:5.5;
+            stroke-linecap:round;
+        }
+
+        .top {stroke-dasharray: 40 172;}
+        .middle {stroke-dasharray: 40 111;}
+        .bottom {stroke-dasharray: 40 172;}
+        &.active{
+            .top {stroke-dashoffset: -132px;}
+            .middle {stroke-dashoffset: -71px;}
+            .bottom {stroke-dashoffset: -132px;}
+        } 
+    }
+    */
+
+
+    /*SEPTIMO HAMB*/
+    /*
+    .ham {
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        transition: transform 400ms;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        &.active {transform: rotate(45deg);}
+
+        .line {
+            fill:none;
+            transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+            stroke:#000;
+            stroke-width:5.5;
+            stroke-linecap:round;
+        }
+
+        .top {stroke-dasharray: 40 82;}
+        .middle {stroke-dasharray: 40 111;}
+        .bottom {stroke-dasharray: 40 161;}
+        &.active{
+            .top {
+                stroke-dasharray: 17 82;
+                stroke-dashoffset: -62px;
+            }
+            .middle {stroke-dashoffset: 23px;}
+            .bottom {stroke-dashoffset: -83px;}
+        }
+    }
+    */
+
+
+    /*OCTAVO HAMB*/
+    /*
+    .ham {
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        transition: transform 400ms;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        &.active {transform: rotate(45deg);}
+
+        .line {
+            fill:none;
+            transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+            stroke:#000;
+            stroke-width:5.5;
+            stroke-linecap:round;
+        }
+
+        .top {stroke-dasharray: 40 160;}
+        .middle {
+            stroke-dasharray: 40 142;
+            transform-origin: 50%;
+            transition: transform 400ms;
+        }
+        .bottom {
+            stroke-dasharray: 40 85;
+            transform-origin: 50%;
+            transition: transform 400ms, stroke-dashoffset 400ms;
+        }
+        &.active{
+            .top {stroke-dashoffset: -64px;}
+            .middle {transform: rotate(90deg);}
+            .bottom {stroke-dashoffset: -64px;}
+        } 
+    }
+    */
+}
